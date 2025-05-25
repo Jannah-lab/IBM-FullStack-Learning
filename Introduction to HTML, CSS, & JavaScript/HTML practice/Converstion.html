@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Unit Conversion</title>
+    </head>
+    <body>
+        <section di="home">
+            <header><b>Conversions</b></h1eader>
+                <p>Welcome to the Unit Conversion page! Here you can convert between different units of measurement.</p>
+            <p>Choose a conversion type below:</p>
+            <nav>
+                <a href="#temperature>"><button>Tempeature</button></a>
+                <a href="#weight"><button>Weight</button></a>
+                <a href="#distance"><button>Distance</button></a>
+            </nav>
+        </section>
+        <div id="all-conversions">
+            <section id="temperature">
+                <div id="tmp">
+                    <h4>Temperature Conversion</h4>
+                    <figure>
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/007/139/826/small_2x/temperature-thermometer-icon-free-vector.jpg" width="300px">
+                        <figcaption>Convert between Celsius and Fahrenheit</figcaption>
+                    </figure>
+                    <article>
+                        <fieldset>
+                            <legend>Temperature</legend>
+                            <label for="celsius">Celsius</label><br>
+                            <input type="number" id="celsius" placeholder="C"><br>
+                            <button>Covert</button><br>
+                            <input type="number" id="Fahrenheit" placeholder="F"><br>
+                            <label for="Fahrenheit">Fahrenheit</label><br>
+                        </fieldset>
+                        <hr>
+                    </article>
+                </div>
+            </section>
+            <section id="weight">
+                <div id="wgt">
+                    <h4>Weight Conversion</h4>
+                    <figure>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP4JzcxkpJT4UQ9zrgAtXZwvpiX60Qvu7Ycg&s" width="250px">
+                        <figcaption>Convert between Kilograms and Pounds</figcaption>
+                    </figure>
+                    <article>
+                        <fieldset>
+                            <legend><b>Weight</b></legend>
+                            <label for="kilo">Kilograms</label><br>
+                            <input type="number" id="kilo" placeholder="kg"><br>
+                            <button>Convert</button><br>
+                            <input type="number" id="pounds" placeholder="lbs"><br>
+                            <label for="pounds">Pounds</label><br>
+                        </fieldset>
+                        <hr>
+                    </article>
+                </div>
+            </section>
+            <section id="distance">
+                <div id="dist">
+                    <h4>Distance Conversion</h4>
+                    <figure>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAhFBMVEX///8AAAD4+Pj39/f7+/v09PTx8fHs7Ozp6enJycm+vr7c3Nzg4OCenp7m5ubMzMxAQEDT09OmpqYmJiZgYGC3t7czMzMaGhoNDQ2pqalsbGwuLi5aWlpPT09KSkqJiYl2dnY6Ojp+fn4WFhaVlZUhISGFhYWPj49vb2+6urqYmJh5eXlSfMqvAAARDElEQVR4nO1dCZerKgxWFrtOa/d1uk6ns/z///dI0NYFULC2c9/xe+/cM7XVEAhJgMR4XoMGDRq8Dpy/lDyhdVNg7VbdJIxoDWomwEhQMwUzaEBqpkAIYzWTMJJnpGby3OPMaSJQQuH/iuSJeI4Ti5RyQb54+BnnzG0IKaOcicZV01LwDCf6gjxlgsMi8vB4MYQOJCi0S3Q+dROACM7ksVsIKSZPBEQ32o8DvXV8FRYJjAJ1IC9uvP1lJC8GWjSVBdadSJECi/52FVQGfctYy5F8/LeevOCeUyc9Q4V4Mi6GH9vmOhcFZSDPrY0FCpBQc5zJxmjJQ8u4i5BJCtjI+2drIHmX/kXdi7fRiLymj0QniMdT+/4XGjSWUI9ENK0fAjIg9Bwtoe+V5FkheTEBxSR38gnRvEQPpUCQOhg0LmTMTY0ihxF5gqKgFiGCUuxCQbrK0VNFN4k/7YcQ9APRy5f53sQYEjDnqofAHBc/5O4cyjmAU8JhFgrhBGNmL6KSqBdpAEle+RAO2oG7ulxStMXtnDOnSUhBuqmLcOPdMXkKA6RTVRQmuqvHfesZru3Coicgecc1xU13YA8peRAuq+csovDQiAZzY5Cit8VdFHBJ8gEjwtJXWRUQEpsjBzEA6aaeq4hK8sgX0TIoPFGv4qpTeoPEZQQ5RxXnVWmA7GGimYMgI4w4GPo0DXi4i7KHFaWwaBW3FZBFjR2ELyvMgRtA0l00FYPbgsr0xRhp+xdM7SP2LWAB7HJb4NGgkojG5PXGVHS+sxZ9AEhAqktQIY2aCRSRr5vBBg0aNGjQoEGDBg0aNGjQoEGDBg0aNPgn0Rp2u53+q1tRGwaffoT18NVtqQN07SdwHL26PQ9HJ+JsOt3Jv66vbtGDMQOmwhkeopAODufhtS16MHAEZ/fPo6P4vH9dex6OQPCzTKvQrbjUfVFzasCXYCcbox/6/vmVIecPRU8w+J29GPhL/+0VrakDJ6FD81fffH/y/LbUArZQTjkqRvZ/YhX7ghXVjBPKZvz0xtSCb9/fqK5/+P7Xs9tSD1a+P1VdF17A9tltqQeCw7Xquhjb92e3pQzsbZgYq53q+lgzti8GbVuzOBSaRnX95OK4tWpPnwzs0xfBZ+spri9Srmo58HbNGZrMKYZLmIXf/NWRYNy2u0wBko/JTiWMOITwfSvcUs872k9Dwqi2izlmSvCSbNL+qLtarbqjflrqCSNOPbVZztceBKMnrs0cXBrI3NLMQ0jpwnD34vb1x+tLYrthsR7Hc4gRFrhFpA8vSzHlUuSp/RqYQwionsH4D3MDe9eJn8dkD0xCWg/+Z9cuDyKYYVFPk3l23kFcsQubBPJck4KaCCQ3sth9V7AnsesKQwjJbw7J7pBZKR5x8hL5i6BmVnZP8TjxIINR8R1yFUfZ6gW1c4zZCT/H3dFgMBCTcb9bxhe7mKRnP4RIfixWgyPvnkC4EQ+0e4roWqFnlNMQRRS+iDL41KM42Ebzbj9Mf8+Ge5iX881k24PsF6t2xeSJNz1e5vBRBv7/KLWrAaLtlGuGh9yTz6IMPhWHb5K/qXqrdjRdTvzw6LImj8kPNqH/E5Pv2+5DEczd4urBibIVvPu/+Z8xOQGn+m7tr8+LZei/W9sKGpP/mc/9dkRekFvaPASj1TELVfntPYmXgDQr0goGyN9c5VlFzxC39OYLMXl820MH1HLYp7u5WErgOIjFhm+zr88ZWHqiVZLAomQe1UT+dyNk8MdAgTKpLXzLpkmiEYeCzKQLmUXgpyqXUxpQ9GSYVkXK9zSApqHqBD5w/f2lwb0QwiFmEw280dmeRenJYuPWmzCET1PxEAubQzjk/RhypKNpRzlR5w/iCB4Nxpfh2xRw/IPQt/W1IhMtmkmCMJx/yf1vmzUFlVngeg3A4vxuqswAbaM9N9sAmOWyoVIltS3adyMvSH9PlkIClrabF+DKeCYVFwswVea3gZlXbGbeEASB0NP39xTAKM5tjGLsq8O/O3Hv3soUkgAy31hg1uHRuxaYKn/wF4y8wZED1ZfqQXaxdZlZnEDIWN8vUmoZCAFgZdInpa+j0rZdX9mjrPN2mG6nX2/dAJqWetFEC26xOlOJEgiB/BXNUvk78R0JZdJDYd2qzONcqmZ9d5twub+GLOMLQq8srZw3fKGCFCDQxnq7mwVIEOOlVrXCnqkWxzAnspuy3XOCPxDJMHuo8hUtFMqDsdjPEJr7s/x9QoELI1XOj1IqWzC9GcvEbwuoyRyWimd/s/F36e0UphZtM3k26I1Go+Fop9x204BA8mKV7ZdDbpE2ihzwmTQIrdnax9VTJ/WrlWLo9ehJ+yn6LNy9v2t8ew1QlboDlqXp8y10b/xDcnzaJz+vWsBBLbVNNhi/x/tNbomelV5qhCum1BD2UDqzLstok/PVZmJkPwqfH6xCf3HqvjDFc+GnT71wWu7ynUZQt6Yaujgvi5Y/MPi/rz0f7GWXoeARq7cWgMXU0cPVX5jdUy4s3/jVCbLXjGlC66+eLGySsZvgnJi0/uxPHH5CMETy89ywbIDxXmZ+bDiEP/jrV4+fB1uy59RpQte4LgWNmrT8n9mZmcTe/sSlDnQEh0kbMDWacdBCyTVPN2ckE2Dab56KVZojmlUmGWQW5i2rJcJrAOumxMdhzr9J4ztt9pmVW/MaiEFZJD6OC/bRYC8guV26Mw/5X0CmibDMMOq/zKBNM5r4D2KTVp3rohZntle+fPXhvMDo8iciuSEU65D4nBHaPC5pDk96Dlt/I14ty6HtGBo4FKZk/toXTktkpBTmoXGlkpmHBwOHoHj/QGDlLh2RVKRLBxldujYervSFV3e12VatA2LiXRIfYXVvcpZnGSfm3bzN6n0fha4e1/3ybiMyFp8t/aXJwG3TPg07F56uDEHdbk6rl3E5zvih6+XSIKbgpSWjX2AHpDBjgn9/XeKf9Z+/1O9kdl+GvimC55D5dfZuLfoyWEW4vfPtftaxf4uxO+LwiBt22d2YBGCWJmct7vHY2PXB+0Ju452n+9noSWzOMzYeN9o058iX7JC9m4yFGkFvdo130zfTZyywsrsYGNaj1o8wvKlg15ZxuWxCa/ixvu3Akk6tkYa5nSgidI3KGyF4Lppyy1e+IoOiPMhojIoHZvP6Z1Qbm+dsu/v+WbF0H+Kud3oHJ7QXUhVW8QnCZ6eWfZ3cjrBQKMDiNCm7fZk2mGZ7+LD1b2/2G2XrrWuYmbBxcUmrtb7UeLtxD4Oo+it5UJONY3jPTuFK4J0rzoPN4/evTvnNFn7L9NwcN3FI2zRjrTtZxVMdgzfYzCx/dloSmDSXPWHp7Pw05jnLPjHsrLqjE9aQV/rhLxR+TCeZsTvNey4/Ru+nAuzCMcsBBFHlfI3e9uvp+vNN5X3gQf5rCw5ZAGaU7YbSzq93fftg+V9nzX4hunVohDv49oFaGoBnhjYrOJY3/w/FyDZ4uBArrTOqxim7JHk09g/vQJhW5U1tT78AeRDaD+9BuzaHVv3hhJ1d/HAJqMKGdICtj7qPKz6rOvW5V9CzpWFxnwaGalbbJCysuwWaodrmVTvXQjCK5fbh4RCxOMrEknwWK/tg8hS4Yi9oW7LhYArNhxtO5DP4qTaGXBUQDptSJfrtAaawTGW7r0rzEII1FRNhXLgcgjoOv5XXvVAdsFBtTxR+JNapKZHdyWig+d08t9zPNI1x1pvMj+cqppDxMuVueoqEUwJ1DUlBXTkA1ZbnQ6Oo13IYHbrJ7ijagpeqDviZ3ynCGGfRhML0To5xtOokzJNpexBzl2BVuHUrFhSTJ6Q4xzPI73Hdm6zPKpE/xLpPmuqAcGCqM4oYod2SLrp7AUSCdZ8KixOecmo9OSbGyn1cyDIUQNMMgt4SyHS+9WSBezquLAr5BPKFQvqWdSGRqVt1wGzQeYoClOczVEQBa67aJ8E5yDqbMAyjB7mcOkTkS/ROKz3XkaVEdUCtRoWaNsRYLaal9siivKVjGE56URlLlwp8sjqgQ6Z7IrkwSk9Tc8ixEKu5bWP1ShGfeJ2H8w9Z1MqhMA8kKAN5Fy2VLr8I5NW15SD3pLD6ZKg0itAtwwnKKNRW0mcB6sGxOmCxeK8V3hp2cJQaynTVATGtkXhBkYxgzk7uqBYeObmEk2FUT9KlcBfcWVj5jbyrXEd2q9Ips+A01QEhua7E9NmrjKKYCFffX8I7Edxqy/Fy1QExuTG/uJaijQWlb4mMOUCdWuqVKe62VBw9EdaTG6T6AosFwIykAhEl+/z5D+I2eZl2BAOK2XWl0h06+bMaMX/hHGYsKbgUz4PqgEUzZAYOx0S1aIrzF5k6udBDLYrpbeXaNlVsn46FrQ8N5fmMCAgpJt8Fx98/qL+MCiBqRZTDsoeXflEArhTTO7LCUTzCJeo0B8FKmMkHb5hKdtHHVMcmUZ2Mj4nctHwsC2yfpndkt9ERnFO1ZMo99Yo0AptFsQumYwJcUuhe6AHVe7lVBcmdn47+An91wrDufPmHxABXxngnK+bPwyWF5nUKWJ5PnVqpRdYo+rjmIPp3+xibBkmuSgZbXXk0e1XkN6qeY6gOGDDLGqBXPxlIetKrgDIgqtXEYPa5iVeB/X3lsDdiHWeVXMuPzGv/YtA0eT4ar+N3/LzufdAYGxX9DdxWiJtJgoxWp/B+tryYPvYQzQqH2/HSj/+IVxtKHdy9c7d8Vx4uPw83ozioep7Net23r510xgYRe9sXc4eYRce8775rkl0w6r4d3uOscPkMCKed/Yk8BQ8PuISNWpU+z4ghTcrAz+CAX/ZeP3R3tCCDe5T34NRo98SIfR5252j1A2Z8cedvu/+Lb7WOXhulyRNlwaCHTkF7Gy5SoyXNeKwut5+zYc0vcnSHNFr3mAs+7K7ePq6/0918gcFguN3RzsqjPNbYTk+rbv8vCaUC8tUD4XR3PA/vnxNAV5Iuk5eW4fYP5JGUxu+t4TiLctpDbkwLGb0cd+v9eNYZ/Gu1jdlteNCnoanBumyO0gL0288Mvn8wbj6I3GD0w+3h+iPGqjdo/VntYYnD9HT9GM9G/0yQXoMGDRo0aNCgQYMGDRo0aNCgQYMGDRo0aPAvof2ElzHVXbzOiOAJ1PnghYdobpkQf4+GFhSCubXfVkhYStNwLDP4APJY9E0fwYex7E4BhklQVpTSoAaklFHTAJQAZwHRlc7DvDGKmWOVWCRGGsYbOTJoyssqAiT2UW06y706oGUoZp6GbTAn4JZxZsjLKgKWKqG6ONME5xVGkWJ5PkMsqw4JvgoSCA3ESYBxtOrbZfW6KB9AG05cBALh2pzbjwKOYDwHS2S6qgAJ2lxbuY9H1QGjtjnqexrRsO4fmT/I4gIXxhxJHSD71SOBRlHSbHVAfXkvIw0CdensJyGKaInsOhMox9KSOuIounHtvNsFaxqgC520zD0VRAqP/TzG0nlMP73onUMhY9wuNyFuJtJwScyTGWfyPlnP1vohHOscGe7DjL24tqOy9FohoPigkYYJmA4Skb/nEloQhyR+QgwxZeyWc0bUteWK24iJjSYaxruBPRqTt9dUYOfNvRsXdpO2xGUcimkYEKXlkchltH0I6mBuJn5Tz875g0jD2XWOnVHmwmAQBFw6iybERpY4iSgXRIppGJAoTmjNIJRwJrzYwNC4+xxGEDIHaQkaBkQs6tLrjMTBVy9j3ZBFXRq0+U4sz1ex8rxkkdoXUAMXkfJSHgq9l+ezpYGluCsuKyHN0sUhBTsflBwX4vKiAE/mgAbV1+fMUMzXdFugLEuphkPFcGsapuc4vU9BkK8qPiVoVBbRauSfQLzy1k6DBg3+v/gPJY+FCN8SLI0AAAAASUVORK5CYII=" width="250px">
+                        <figcaption>Convert between Kilometers and Miles</figcaption>
+                    </figure>
+                    <article>
+                        <fieldset>
+                            <legend><b>Distance</b></legend>
+                            <label for="km">Kilometers</label><br>
+                            <input type="number" id="km" placeholder="km"><br>
+                            <button>Convert</button><br>
+                            <input type="number" id="miles" placeholder="miles"><br>
+                            <label for="miles">Miles</label><br>
+                        </fieldset>
+                        <hr>
+                    </article>
+                </div>
+            </section>
+        </div>
+        <a href="#home"><img src="data:image/png;base64,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" width="50px"></a>
+    </body>
+</html>
