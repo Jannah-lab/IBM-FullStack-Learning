@@ -7,3 +7,5 @@ This repository explaining my learing journey in IBM Full Stack Software Develop
 - learn fundamental programming concepts.
 - Build full stack projects
 - Document key lessons, resources, and challenges encountered
+
+Hi
