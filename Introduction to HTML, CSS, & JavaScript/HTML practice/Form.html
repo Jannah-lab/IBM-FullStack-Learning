@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Practice</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <section id="form1">
+                        <fieldset style="width: 350px; background-color: rgb(218, 208, 208); border: none;">
+                           <legend><b>Main Form Title</b></legend>
+                           <table>
+                              <tr>
+                                    <td><label for="fname">First Name: </label></td>
+                                   <td><label for="lname">Last Name: </label></td>
+                              </tr>
+                                <tr>
+                                  <td><input type="text" id="fname" name="fname" placeholder="Pleas enter your first name" required></td>
+                                  <td><input type="text" id="lname" name="lname" placeholder="Pleas enter your last name"required></td>
+                               </tr>
+                           </table>
+                        <label for="email">Email: </label><br>
+                        <input type="email" id="email" name="email" placeholder="example@email.com" style="width: 338px" required><br><br>
+                            <table>
+                                <tr>
+                                    <td><label for="start">Year Started:</label></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="month" id="smonth" name="smonth" style="width:105px" required><td></td>
+                                    <td><input type="number" min="1" max="31" id="sday" name="sday" placeholder="dd" style="width:105px" required></td>
+                                    <td><input type="number" min="1900" max="2099" id="syear" name="syear" placeholder="yyyy" style="width:105px" required></td>
+                                </tr>
+                            </table>
+                            <br>
+                            <table >
+                                <tr>
+                                    <td>Other Details 1&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                    <td>Other Details 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                    <td>Other Details 3</td>
+                                </tr>
+                                <tr align="center">
+                                    <td><input type="number" min="1" max="31"></td>
+                                    <td><input type="number" min="1" max="31"></td>
+                                    <td><input type="number" min="1" max="31"></td>
+                                </tr>
+                            </table>
+                            <br>
+                            <p style="font-size: x-small;">Details and More Words Here, Details and More Words Here Details and More Words Here Details and More Words Here Details and More Words Here Details and More Words Here.</p>
+                            <textarea id="comments" name="comments" rows="6" cols="44" placeholder="Please enter your comments here..."></textarea><br><br>
+                            <button style="
+                                        float: right; 
+                                        width: 100px; 
+                                        height: 30px; 
+                                        background-color: liner-gradient(to bottom, white, rgb(0, 0, 0));
+                                        "> Send</button>
+                        </fieldset>
+                    </section>
+                </td>
+                <td>
+                    <section id="form2">
+                        <fieldset style="width:350px; table-layout: fixed; background-color: rgb(218, 208, 208); border: none; position: absolute; top: 10px;">
+                            <legend><b>Main Another Form Title</b></legend>
+                            <table>
+                                <tr>
+                                    <td width="70%"><label for="discript">Description</label></td>
+                                    <td width="30%"><label for="products">Products</label></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="text" id=discript name=discript style="width:220px;"></td>
+                                    <td><select id="prodta" name="prodta" style="height: 21px;">
+                                        <option value="prodt1">Product item 1</option>
+                                        <option value="prodt2">Product item 2</option>
+                                        <option value="prodt3">Product item 3</option>
+                                        <option value="prodt4">Product item 4</option>
+                                        <option value="prodt5">Product item 5</option>
+                                        <option value="prodt6">Product item 6</option>
+                                    </select>
+                                </tr>
+                            </table>
+                            <table width="100%">
+                                <tr>
+                                    <td width="33%"><label for="item1">Item 1</label></td>
+                                    <td width="33%"><label for="item2">Item 2</label></td>
+                                    <td width="33%"><label for="item3">Item 3</label></td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 33%;"><input type="text" id="item1" style="width: 93%;"></td>
+                                    <td style="width: 33%;"><input type="text" id="item2" style="width: 93%;"></td>
+                                    <td style="width: 33%;"><input type="text" id="item3" style="width: 93%;"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="prodtb" style="width: 100%;">Select Product</label></td>
+                                </tr>
+                            </table>
+                            <table style="width: 100%; height: 100%;">
+                                <tr>
+                                    <th style="width: 40%;"><select id="prodta" name="prodta" style="width: 90%; height: 21px;"></select></th>
+                                    <th style="width: 10%;"><input type="number" id="prodtb2"name="prodtb2" style="width: 90%;"></th>
+                                    <th style="width: 40%;"><select id="prodtb3" name="prodtb3" style="width: 90%; height: 21px"></select></th>
+                                    <th style="width: 10%;"><input type="number" id="prodtb4"name="prodtb4" style="width: 90%; "></th>
+                                </tr>
+                                                            
+                                       
+                            </table>
+                        </fieldset>
+                    </section>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
