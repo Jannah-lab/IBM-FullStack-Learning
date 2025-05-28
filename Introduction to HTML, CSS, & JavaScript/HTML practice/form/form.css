@@ -1,0 +1,29 @@
+.form {
+    border: none !important;
+    background-color: rgb(230, 230, 230) !important;
+    width: 500px;
+    display: grid;
+}
+
+.hform {
+    font-size: 22px;
+    font-style: normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.rform{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    margin-bottom: 5px;
+
+    /* How to make the form orgainzed even with wariable number of elements in different rows/columns:
+    1. make a display grid 
+    2. use grid-template adjust the elements in a way you want.
+    3. grid-template-columns: for no of columns. gird-template-rows: for no of rows.
+    4. repeat: for repeating elements.
+    5. auto-fit :for fitting the elements without filling it completely., auto-fill: for filling the elements completely.
+    6. minmax: for setting the min and max
+    7. fr: is for fraction of the available space. (1fr means 1 fraction of the available space, 2fr means 2 fraction of the available space, etc.)
+    ; */
+}
